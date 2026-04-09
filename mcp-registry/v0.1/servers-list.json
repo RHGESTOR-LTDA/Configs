@@ -1,25 +1,25 @@
- ---
- layout: null
- permalink: /mcp-registry/v0.1/servers
- ---
- {
-   "servers": [
-     {
-       "server": {
-         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-         "name": "microsoft.com/azure-devops",
-         "description": "Azure DevOps MCP Server - access work items, pull requests, repositories, pipelines, and more.",
-         "repository": {
-           "url": "https://github.com/microsoft/azure-devops-mcp",
-           "source": "github"
-         },
-         "version": "2.5.0"
-       },
-       "_meta": {
-         "io.modelcontextprotocol.registry/official": {
-           "status": "active"
-         }
-       }
-     }
-   ]
- }
+---
+layout: null
+permalink: /mcp-registry/v0.1/servers
+---
+{
+  "servers": [
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+        "name": "microsoft.com/azure-devops",
+        "description": "Azure DevOps MCP Server - access work items, pull requests, repositories, pipelines, and more.",
+        "repository": {
+          "url": "https://github.com/microsoft/azure-devops-mcp",
+          "source": "github"
+        },
+        "version": "2.5.0"
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active"
+        }
+      }
+    }
+  ]
+}
